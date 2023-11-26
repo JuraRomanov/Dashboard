@@ -1,0 +1,52 @@
+.navbar{ 
+    padding: 15px;
+    background: rgb(6,11,38);
+    background: -moz-linear-gradient(152deg, rgba(6,11,38,0.94) 0%, rgba(26,31,55,0) 100%);
+    background: -webkit-linear-gradient(152deg, rgba(6,11,38,0.94) 0%, rgba(26,31,55,0) 100%);
+    background: linear-gradient(152deg, rgba(6,11,38,0.94) 0%, rgba(26,31,55,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#060b26",endColorstr="#1a1f37",GradientType=1); 
+    min-height: 100vh;
+}
+
+.nameSection{ 
+    font-size: 14px;
+    font-weight: 500;
+    text-transform:uppercase;
+    padding-bottom: 31px;
+    border-bottom: 1px solid white;
+}
+
+.pageSection{ 
+    margin-top: 22.5px;
+    .item{ 
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 16px 12px;
+        background-color: #1A1F37;
+        border-radius: 15px;
+        width: 219.5px;
+        height: 54px;
+        text-decoration: none;
+        color:white ;
+        margin-bottom: 13px;
+        .logo{ 
+            display: flex;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            padding: 7.5px;
+            background-color: #0075FF;
+            border-radius: 12px;
+
+        }
+        .title{ 
+            text-transform:capitalize; 
+            margin-left: 15px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+
+
+}

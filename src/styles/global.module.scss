@@ -1,0 +1,40 @@
+@import './variables.module.scss'; 
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+*,*::after,*::before{ 
+    box-sizing: border-box;
+}
+
+.main{ 
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(198deg, rgba(2,0,36,1) 0%, rgba(15,15,98,1) 47%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(198deg, rgba(2,0,36,1) 0%, rgba(15,15,98,1) 47%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(198deg, rgba(2,0,36,1) 0%, rgba(15,15,98,1) 47%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1); 
+    color: $white-text;
+    min-height: 100vh;    
+    padding: 10px;                                            
+}
+
+.mainContecnt{ 
+    display: flex;
+    justify-content: start;
+}
+
+.container{ 
+   
+    margin-left: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.menuContainer{ 
+    margin-bottom: 17px;
+    margin-top: 12.5px;
+}
+

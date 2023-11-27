@@ -1,0 +1,43 @@
+
+.menu { 
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16.5px;
+    width: auto;
+}
+
+.namePageSection { 
+    display: flex;
+    flex-direction: column;
+
+    .road { 
+        margin-bottom: 6px;
+        font-size:12px;
+        span{ 
+            font-weight: bold;
+        }
+    }
+    .currentPage{ 
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+.userSection{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    .userBox{ 
+        display: flex;
+        margin-left: 18px;
+    }
+    
+}
+
+
+  
+
+  
